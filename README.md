@@ -76,15 +76,13 @@ To install in development mode
 Citing
 ------
 
-    @article{Zitnik2015,
+    @inproceedings{Zitnik2016,
       title     = {Collective pairwise classification for multi-way analysis of disease and drug data},
       author    = {{\v{Z}}itnik, Marinka and Zupan, Bla{\v{z}}},
-      journal   = {},
-      volume    = {},
-      number    = {},
+      booktitle = {Pacific Symposium on Biocomputing},
+      volume    = {21},
       pages     = {},
-      year      = {},
-      publisher = {}
+      year      = {2016}
     }
     
     
