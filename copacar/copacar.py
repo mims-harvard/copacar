@@ -52,22 +52,19 @@ def copacar(X, rank, **kwargs):
         Regularization parameter for A factor matrix. 0 by default.
     lmbdaR : float, optional
         Regularization parameter for R_k factor matrices. 0 by default.
-    lmbdaV : float, optional
-        Regularization parameter for V_l factor matrices. 0 by default.
     max_iter : int, optional
-        Maximium number of iterations of the algorithm. 500 by default.
+        Maximum number of iterations of the algorithm. 20 by default
+        but should be set to a larger number.
     sample_epoch : int, optional
         Used with stochastic optimization of the gradient. The number of
         iterations that model is optimized against a particular data subsample.
-        5 by default.
-    conv : float, optional
-        Stop when residual of factorization is less than conv. 1e-5 by default.
-    sample_epoch : int
-        Number of consecutive algorithm iterations run using the same data sample.
         1 by default.
+    conv : float, optional
+        Stop when violation of the loss function is greater than conv.
+        0.2 by default.
     armijo : float
         Gap in the Armijo-Goldstein step size control. 1e-3 by default.
-    init_gamma : float
+    gamma : float
         Maximum candidate step in the Armijo-Goldstein step. 1e-1 by default.
     sample_size : init
         Data subsample size, the actual size is 2*sample_size. 100 by default.

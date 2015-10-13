@@ -14,7 +14,7 @@ from copacar import copacar_sgd
 def predict_copacar_sgd(T):
     A, R, _, _, = copacar_sgd(
         T, 10, conv=0.1, lambda_A=0,
-        lambda_R=0, n_jobs=50,
+        lambda_R=0, n_jobs=2,
         max_iter=20, sample_size=100,
     )
     n = A.shape[0]
