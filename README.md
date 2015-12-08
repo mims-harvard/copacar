@@ -7,7 +7,7 @@ Although COPACAR bears correspondence with the maximization of non-differentiabl
 
 COPACAR can make *category-jumping* predictions about, for example, diseases from genomic and clinical data generated far outside the molecular context.   
 
-This repository contains supplementary material for *Collective pairwise classification for multi-way analysis of disease and drug data* by Marinka Zitnik and Blaz Zupan.
+This repository contains supplementary material for *[Collective pairwise classification for multi-way analysis of disease and drug data](http://psb.stanford.edu/psb-online/proceedings/psb16/zitnik.pdf)* by Marinka Zitnik and Blaz Zupan.
  
  
 About COPACAR
@@ -81,7 +81,7 @@ Citing
       author    = {{\v{Z}}itnik, Marinka and Zupan, Bla{\v{z}}},
       booktitle = {Pacific Symposium on Biocomputing},
       volume    = {21},
-      pages     = {},
+      pages     = {81-92},
       year      = {2016}
     }
     
