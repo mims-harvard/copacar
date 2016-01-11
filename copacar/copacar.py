@@ -144,7 +144,7 @@ def copacar(X, rank, **kwargs):
     # ------ initialize indices ----------------------------------------------
     e = X[0].shape[0]
     SZ = e * e
-    fsz = min(sample_size, SZ / sample_size)
+    fsz = min(sample_size, SZ // sample_size)
 
     indices1 = zip(*[np.where(X[i] == 0) for i in range(len(X))])
     indices1 = [np.concatenate(ind) for ind in indices1]
